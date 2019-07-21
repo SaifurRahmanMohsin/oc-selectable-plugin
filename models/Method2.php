@@ -17,6 +17,11 @@ class Method2 extends Model
      */
     protected $guarded = [];
 
+    /**
+     * @var array Jsonable fields
+     */
+    public $jsonable = ['status_checkboxlist'];
+
     public function getStatusDropdownOptions()
     {
         return [
@@ -32,6 +37,11 @@ class Method2 extends Model
     }
 
     public function getStatusBalloonOptions()
+    {
+        return $this->getStatusDropdownOptions();
+    }
+
+    public function getStatusCheckboxlistOptions()
     {
         return $this->getStatusDropdownOptions();
     }

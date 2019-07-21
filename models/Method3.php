@@ -17,9 +17,14 @@ class Method3 extends Model
      */
     protected $guarded = [];
 
+    /**
+     * @var array Jsonable fields
+     */
+    public $jsonable = ['status_checkboxlist'];
+
     public function getDropdownOptions($fieldName, $value, $formData)
     {
-        if (in_array($fieldName, array('status_dropdown','status_radio', 'status_balloon'))) {
+        if (in_array($fieldName, array('status_dropdown','status_radio', 'status_balloon', 'status_checkboxlist'))) {
             return [
                 'Unpublished',
                 'Published',

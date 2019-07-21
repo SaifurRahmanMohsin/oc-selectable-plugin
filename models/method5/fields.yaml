@@ -23,3 +23,10 @@ fields:
         options:
           - Mohsin\Selectable\Classes\StatusManager
           - getStatuses
+
+    status_checkboxlist:
+        label: Checkbox List
+        type: checkboxlist
+        options:
+          - Mohsin\Selectable\Classes\StatusManager
+          - getStatuses

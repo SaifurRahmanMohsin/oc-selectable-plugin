@@ -17,3 +17,8 @@ fields:
         label: Status Balloon
         type: balloon-selector
         options: listStatuses
+
+    status_checkboxlist:
+        label: Checkbox List
+        type: checkboxlist
+        options: listStatuses

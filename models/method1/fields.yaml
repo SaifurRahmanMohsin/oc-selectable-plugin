@@ -26,3 +26,11 @@ fields:
             - Unpublished
             - Published
             - Archived
+
+    status_checkboxlist:
+        label: Checkbox List
+        type: checkboxlist
+        options:
+            - Unpublished
+            - Published
+            - Archived

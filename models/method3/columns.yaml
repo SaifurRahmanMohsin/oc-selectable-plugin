@@ -14,3 +14,7 @@ columns:
     status_balloon:
         label: Status Balloon
         type: selectable
+
+    status_checkboxlist:
+        label: Checkbox List
+        type: selectable

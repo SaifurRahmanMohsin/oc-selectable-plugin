@@ -17,6 +17,11 @@ class Method4 extends Model
      */
     protected $guarded = [];
 
+    /**
+     * @var array Jsonable fields
+     */
+    public $jsonable = ['status_checkboxlist'];
+
     public function listStatuses($fieldName, $value, $formData)
     {
         return [

@@ -16,4 +16,9 @@ class Method5 extends Model
      * @var array Guarded fields
      */
     protected $guarded = [];
+
+    /**
+     * @var array Jsonable fields
+     */
+    public $jsonable = ['status_checkboxlist'];
 }

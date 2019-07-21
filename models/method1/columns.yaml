@@ -26,3 +26,11 @@ columns:
             - Unpublished
             - Published
             - Archived
+
+    status_checkboxlist:
+        label: Checkbox List
+        type: selectable
+        options:
+            - Unpublished
+            - Published
+            - Archived
