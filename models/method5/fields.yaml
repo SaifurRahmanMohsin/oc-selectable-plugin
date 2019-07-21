@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    status_dropdown:
+        label: Status Dropdown
+        type: dropdown
+        options:
+          - Mohsin\Selectable\Classes\StatusManager
+          - getStatuses
+
+    status_radio:
+        label: Status Radio
+        type: radio
+        options:
+          - Mohsin\Selectable\Classes\StatusManager
+          - getStatuses
+
+    status_balloon:
+        label: Status Balloon
+        type: balloon-selector
+        options:
+          - Mohsin\Selectable\Classes\StatusManager
+          - getStatuses

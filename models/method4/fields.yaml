@@ -1,0 +1,19 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    status_dropdown:
+        label: Status Dropdown
+        type: dropdown
+        options: listStatuses
+
+    status_radio:
+        label: Status Radio
+        type: radio
+        options: listStatuses
+
+    status_balloon:
+        label: Status Balloon
+        type: balloon-selector
+        options: listStatuses

@@ -1,0 +1,28 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    status_dropdown:
+        label: Status Dropdown
+        type: dropdown
+        options:
+            - Unpublished
+            - Published
+            - Archived
+
+    status_radio:
+        label: Status Radio
+        type: radio
+        options:
+            - Unpublished
+            - Published
+            - Archived
+
+    status_balloon:
+        label: Status Balloon
+        type: balloon-selector
+        options:
+            - Unpublished
+            - Published
+            - Archived

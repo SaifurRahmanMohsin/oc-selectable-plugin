@@ -1,0 +1,28 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    status_dropdown:
+        label: Status Dropdown
+        type: selectable
+        options:
+            - Unpublished
+            - Published
+            - Archived
+
+    status_radio:
+        label: Status Radio
+        type: selectable
+        options:
+            - Unpublished
+            - Published
+            - Archived
+
+    status_balloon:
+        label: Status Balloon
+        type: selectable
+        options:
+            - Unpublished
+            - Published
+            - Archived

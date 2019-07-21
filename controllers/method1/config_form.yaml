@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Method1
+
+# Model Form Field configuration
+form: $/mohsin/selectable/models/method1/fields.yaml
+
+# Model Class name
+modelClass: Mohsin\Selectable\Models\Method1
+
+# Default redirect location
+defaultRedirect: mohsin/selectable/method1
+
+# Create page
+create:
+    title: Create Status List
+    redirect: mohsin/selectable/method1/update/:id
+    redirectClose: mohsin/selectable/method1
+
+# Update page
+update:
+    title: Edit Status List
+    redirect: mohsin/selectable/method1
+    redirectClose: mohsin/selectable/method1
+
+# Preview page
+preview:
+    title: Preview Status List
