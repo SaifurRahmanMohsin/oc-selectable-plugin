@@ -5,28 +5,12 @@
 columns:
     status_dropdown:
         label: Status Dropdown
-        type: selectable
-        options:
-          - Mohsin\Selectable\Classes\StatusManager
-          - getStatuses
 
     status_radio:
         label: Status Radio
-        type: selectable
-        options:
-          - Mohsin\Selectable\Classes\StatusManager
-          - getStatuses
 
     status_balloon:
         label: Status Balloon
-        type: selectable
-        options:
-          - Mohsin\Selectable\Classes\StatusManager
-          - getStatuses
 
     status_checkboxlist:
         label: Checkbox List
-        type: selectable
-        options:
-          - Mohsin\Selectable\Classes\StatusManager
-          - getStatuses

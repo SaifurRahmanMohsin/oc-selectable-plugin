@@ -5,20 +5,12 @@
 columns:
     status_dropdown:
         label: Status Dropdown
-        type: selectable
-        options: listStatuses
 
     status_radio:
         label: Status Radio
-        type: selectable
-        options: listStatuses
 
     status_balloon:
         label: Status Balloon
-        type: selectable
-        options: listStatuses
 
     status_checkboxlist:
         label: Checkbox List
-        type: selectable
-        options: listStatuses
